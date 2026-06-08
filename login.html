@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutti Frutti | Login & Register</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .auth-container {
+            max-width: 400px;
+            margin: 60px auto;
+            background: var(--white);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(255, 209, 220, 0.5);
+            text-align: center;
+        }
+        .auth-container h2 {
+            margin-bottom: 20px;
+            color: var(--text-dark);
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--primary-pink);
+            border-radius: 10px;
+            box-sizing: border-box;
+            background-color: var(--bg-soft);
+        }
+        .auth-btn {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--text-dark);
+            color: var(--white);
+            border: none;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .auth-btn:hover {
+            background-color: #352c2b;
+        }
+        .switch-form {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .switch-form a {
+            color: #e06682;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'" style="cursor:pointer;">🍓 Tutti Frutti</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#categories">Categories</a>
+        </nav>
+    </header>
+
+    <main class="auth-container">
+        <h2 id="auth-title">Welcome Back 🍓</h2>
+        <form id="auth-form" onsubmit="handleAuth(event)">
+            <div class="form-group" id="username-group" style="display: none;">
+                <label for="username">Full Name</label>
+                <input type="text" id="username" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required placeholder="••••••••">
+            </div>
+            <button type="submit" class="auth-btn" id="submit-btn">Login</button>
+        </form>
+
+        <div class="switch-form">
+            <span id="switch-text">New to Tutti Frutti?</span> 
+            <a href="#" id="switch-link" onclick="toggleForm(event)">Create an Account</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

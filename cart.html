@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutti Frutti | Your Bag</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cart-container { padding: 40px 5%; display: flex; gap: 30px; flex-wrap: wrap; }
+        .cart-items { flex: 2; min-width: 300px; background: white; padding: 20px; border-radius: 15px; }
+        .checkout-box { flex: 1; min-width: 280px; background: white; padding: 20px; border-radius: 15px; height: fit-content; box-shadow: 0 4px 15px rgba(255,209,220,0.4); }
+        .cart-item { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #eee; padding: 15px 0; }
+        .cart-item img { width: 70px; height: 90px; object-fit: cover; border-radius: 8px; }
+        .checkout-box input { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid var(--primary-pink); border-radius: 8px; box-sizing: border-box; }
+        .order-btn { width: 100%; padding: 12px; background: var(--text-dark); color: white; border: none; border-radius: 25px; font-weight: bold; cursor: pointer; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'" style="cursor:pointer;">🍓 Tutti Frutti</div>
+        <nav><a href="index.html">Home</a></nav>
+    </header>
+
+    <h1 style="text-align: center; margin-top: 30px;">Your Shopping Bag 🛍️</h1>
+
+    <div class="cart-container">
+        <div class="cart-items" id="cart-items-list">
+            <p>Your bag is empty. Start shopping now! 🍓</p>
+        </div>
+
+        <div class="checkout-box">
+            <h3>Order Summary</h3>
+            <p>Total Items: <span id="total-items">0</span></p>
+            <p>Total Price: <span id="total-price">0</span> EGP</p>
+            <hr>
+            <h4>Shipping Details</h4>
+            <form onsubmit="processOrder(event)">
+                <input type="text" placeholder="Your Full Name" required>
+                <input type="text" placeholder="Shipping Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <button type="submit" class="order-btn">Confirm Order ✨</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        window.onload = function() { loadCartPage(); };
+    </script>
+</body>
+</html>

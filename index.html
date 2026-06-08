@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutti Frutti | Modest & Girly Fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'" style="cursor:pointer;">🍓 Tutti Frutti</div>
+        <nav>
+    <a href="index.html">Home</a>
+    <a href="#" onclick="goToCategory('tech_sale')">Tech Sale ⚡</a>
+    <a href="#" onclick="localStorage.removeItem('isLoggedIn'); window.location.reload();">Logout 🚪</a>
+       </nav>
+        <div class="cart-icon">
+            🛒 Bag (<span id="cart-count">0</span>)
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Tutti Frutti 🍓</h1>
+        <a href="#categories" class="btn">Shop Now</a>
+    </section>
+
+    <section id="categories" class="categories-section">
+        <h2>Our Beautiful Collections</h2>
+        <div class="categories-grid">
+            
+            <div class="category-card" onclick="goToCategory('pants')">
+                <h3>Pants</h3>
+            </div>
+            
+            <div class="category-card" onclick="goToCategory('scarfs')">
+                <h3>Scarfs</h3>
+            </div>
+
+            <div class="category-card" onclick="goToCategory('blouses')">
+                <h3>Blouses</h3>
+            </div>
+
+            <div class="category-card" onclick="goToCategory('skirts')">
+                <h3>Skirts</h3>
+            </div>
+
+            <div class="category-card" onclick="goToCategory('dresses')">
+                <h3>Dresses</h3>
+            </div>
+
+            <div class="category-card" onclick="goToCategory('esdalat')">
+                <h3>Esdalat</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+:root {
+    --primary-pink: #FFD1DC;    
+    --bg-soft: #F4EEED;       
+    --text-dark: #4A3E3D;      
+    --accent-cream: #EED9C4;  
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-soft);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    box-shadow: 0 4px 12px rgba(255, 209, 220, 0.4);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--text-dark);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff99b0;
+}
+
+.cart-icon {
+    background-color: var(--primary-pink);
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 140px 20px;
+    background: linear-gradient(rgba(255, 235, 238, 0.85), rgba(244, 238, 237, 0.9)), 
+                url('image/logo.jpg') no-repeat center center;
+    background-size: cover; 
+    background-attachment: fixed; 
+    border-bottom: 2px dashed var(--primary-pink);
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: var(--text-dark);
+    margin-bottom: 12px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #5a4b4a;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: var(--text-dark);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #352c2b;
+    transform: scale(1.05);
+}
+
+.categories-section {
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.categories-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.category-card {
+    background-color: var(--white);
+    padding: 50px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+}
+
+.category-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(255, 209, 220, 0.7);
+    border-color: var(--primary-pink);
+}
+
+.category-card h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.collection-header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--white);
+    border-bottom: 1px solid rgba(255, 209, 220, 0.5);
+    margin-bottom: 30px;
+}
+
+.collection-header h1 {
+    font-size: 36px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.products-container {
+    padding: 0 5% 60px 5%;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background-color: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(255, 209, 220, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(255, 209, 220, 0.5);
+}
+
+.product-image-wrapper {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    background-color: #fcfcfc;
+}
+
+.product-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-info h4 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    color: var(--text-dark);
+}
+
+.product-price {
+    font-weight: bold;
+    color: #e06682;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.add-to-bag-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-pink);
+    color: var(--text-dark);
+    border: none;
+    border-radius: 0 0 15px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.add-to-bag-btn:hover {
+    background-color: #ffb8c9;
+}

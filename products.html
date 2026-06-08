@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutti Frutti | Our Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo" onclick="window.location.href='index.html'" style="cursor:pointer;">🍓 Tutti Frutti</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#categories">Categories</a>
+        </nav>
+        <div class="cart-icon">
+            🛒 Bag (<span id="cart-count">0</span>)
+        </div>
+    </header>
+
+    <section class="collection-header">
+        <h1 id="collection-title">Our Products</h1>
+        <p>Discover your next favorite outfit below</p>
+    </section>
+
+    <main class="products-container">
+        <div class="products-grid" id="products-grid">
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        window.onload = function() {
+            displayCollection();
+        };
+    </script>
+</body>
+</html>

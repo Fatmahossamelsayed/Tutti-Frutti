@@ -1,1 +1,285 @@
-const _0x148eb8=_0x5267;(function(_0x3a0659,_0x136d59){const _0x57e590=_0x5267,_0x3e1ed0=_0x3a0659();while(!![]){try{const _0x196e65=parseInt(_0x57e590(0x17f))/0x1+-parseInt(_0x57e590(0x14c))/0x2*(parseInt(_0x57e590(0x119))/0x3)+parseInt(_0x57e590(0x16b))/0x4+parseInt(_0x57e590(0x157))/0x5+parseInt(_0x57e590(0x131))/0x6+parseInt(_0x57e590(0x181))/0x7+parseInt(_0x57e590(0x13b))/0x8*(-parseInt(_0x57e590(0x136))/0x9);if(_0x196e65===_0x136d59)break;else _0x3e1ed0['push'](_0x3e1ed0['shift']());}catch(_0x36f0eb){_0x3e1ed0['push'](_0x3e1ed0['shift']());}}}(_0x315a,0x40029));const tuttiFruttiProducts={'blouses':[{'id':'b1','name':_0x148eb8(0x1bb),'price':0x352,'img':_0x148eb8(0x16f)},{'id':'b2','name':_0x148eb8(0x13f),'price':0x3d4,'img':_0x148eb8(0x19f)},{'id':'b3','name':'Puff\x20Sleeve\x20Embroidered\x20Top','price':0x2d0,'img':_0x148eb8(0x199)},{'id':'b4','name':'Minimalist\x20V-Neck\x20Chiffon\x20Blouse','price':0x352,'img':'image/blouses\x204.jpg'},{'id':'b5','name':'Satin\x20Lantern\x20Sleeve\x20Blouse','price':0x2a8,'img':_0x148eb8(0x150)},{'id':'b6','name':_0x148eb8(0x160),'price':0x2c6,'img':_0x148eb8(0x192)},{'id':'b7','name':_0x148eb8(0x188),'price':0x2bc,'img':_0x148eb8(0x147)},{'id':'b8','name':_0x148eb8(0x18d),'price':0x2b2,'img':_0x148eb8(0x185)},{'id':'b9','name':_0x148eb8(0x18a),'price':0x2f8,'img':_0x148eb8(0x1a2)},{'id':_0x148eb8(0x129),'name':_0x148eb8(0x1a9),'price':0x35c,'img':_0x148eb8(0x1c1)}],'dresses':[{'id':'d1','name':_0x148eb8(0x1be),'price':0x640,'img':_0x148eb8(0x1c4)},{'id':'d2','name':_0x148eb8(0x138),'price':0x672,'img':_0x148eb8(0x14e)},{'id':'d3','name':'Sunny\x20Meadow\x20Floral\x20Dress','price':0x4b0,'img':'image/dress\x203.webp'},{'id':'d4','name':'Blossom\x20Ruched\x20Maxi\x20Dress','price':0x6fe,'img':_0x148eb8(0x18e)},{'id':'d6','name':'Whimsical\x20Pleated\x20Modest\x20Gown','price':0x79e,'img':_0x148eb8(0x1ae)},{'id':'d7','name':_0x148eb8(0x172),'price':0x762,'img':_0x148eb8(0x155)},{'id':'d8','name':_0x148eb8(0x184),'price':0x6f4,'img':_0x148eb8(0x15f)},{'id':'d9','name':'Vintage\x20Botanical\x20Print\x20Dress','price':0x71c,'img':_0x148eb8(0x123)},{'id':_0x148eb8(0x163),'name':'Taupe\x20Belted\x20Flowy\x20Maxi\x20Dress','price':0x6d6,'img':'image/dress\x2010.jpg'}],'pants':[{'id':'p1','name':_0x148eb8(0x195),'price':0x2ee,'img':_0x148eb8(0x162)},{'id':'p2','name':_0x148eb8(0x169),'price':0x320,'img':_0x148eb8(0x18c)},{'id':'p3','name':_0x148eb8(0x134),'price':0x352,'img':'image/pants\x203.webp'},{'id':'p4','name':_0x148eb8(0x1ac),'price':0x37a,'img':_0x148eb8(0x193)},{'id':'p5','name':'Cute\x20Embroidered\x20Hearts\x20Denim','price':0x370,'img':_0x148eb8(0x151)},{'id':'p6','name':_0x148eb8(0x15c),'price':0x348,'img':_0x148eb8(0x12d)},{'id':'p7','name':'Dark\x20Cocoa\x20Straight\x20Trousers','price':0x334,'img':'image/pants\x207.jpg'},{'id':'p8','name':_0x148eb8(0x1af),'price':0x334,'img':_0x148eb8(0x12a)},{'id':'p9','name':'Paperbag\x20Waist\x20Linen\x20Culottes','price':0x30c,'img':_0x148eb8(0x126)},{'id':_0x148eb8(0x194),'name':_0x148eb8(0x14a),'price':0x316,'img':_0x148eb8(0x1b5)}],'skirts':[{'id':'s1','name':_0x148eb8(0x133),'price':0x3ac,'img':_0x148eb8(0x125)},{'id':'s2','name':_0x148eb8(0x16c),'price':0x320,'img':_0x148eb8(0x13c)},{'id':'s3','name':'Soft\x20Beige\x20Flared\x20Knit\x20Skirt','price':0x334,'img':'image/skirt\x203.jpg'},{'id':'s4','name':'Classic\x20Button-Down\x20Olive\x20Skirt','price':0x316,'img':_0x148eb8(0x170)},{'id':'s5','name':_0x148eb8(0x1ab),'price':0x28a,'img':'image/skirt\x205.jpg'},{'id':'s6','name':'Minimalist\x20Black\x20Cotton\x20Skirt','price':0x352,'img':'image/skirt\x206.webp'},{'id':'s7','name':_0x148eb8(0x17b),'price':0x370,'img':_0x148eb8(0x182)},{'id':'s8','name':_0x148eb8(0x154),'price':0x33e,'img':_0x148eb8(0x196)},{'id':'s9','name':_0x148eb8(0x122),'price':0x2c6,'img':_0x148eb8(0x190)},{'id':'s10','name':_0x148eb8(0x15d),'price':0x316,'img':_0x148eb8(0x143)}],'scarfs':[{'id':_0x148eb8(0x1c3),'name':_0x148eb8(0x13e),'price':0xdc,'img':_0x148eb8(0x146)},{'id':_0x148eb8(0x18f),'name':_0x148eb8(0x16d),'price':0xdc,'img':_0x148eb8(0x197)},{'id':'sc3','name':_0x148eb8(0x1bf),'price':0xfa,'img':_0x148eb8(0x17e)},{'id':'sc4','name':_0x148eb8(0x1aa),'price':0xf0,'img':_0x148eb8(0x1a6)},{'id':_0x148eb8(0x1a8),'name':'Mauve\x20Breeze\x20Lightweight\x20Modal','price':0xbe,'img':_0x148eb8(0x186)},{'id':_0x148eb8(0x180),'name':_0x148eb8(0x135),'price':0xd2,'img':_0x148eb8(0x149)}],'esdalat':[{'id':'e1','name':_0x148eb8(0x1b3),'price':0x3b6,'img':_0x148eb8(0x16e)},{'id':'e2','name':'Blush\x20Pink\x20Flowy\x20Comfort\x20Esdal','price':0x334,'img':'image/esdal\x202.jfif'},{'id':'e3','name':_0x148eb8(0x11c),'price':0x3d4,'img':_0x148eb8(0x1a3)},{'id':'e4','name':_0x148eb8(0x191),'price':0x384,'img':'image/esdal\x204.jpg'},{'id':'e5','name':_0x148eb8(0x127),'price':0x316,'img':_0x148eb8(0x165)},{'id':'e6','name':_0x148eb8(0x178),'price':0x334,'img':_0x148eb8(0x15b)}],'tech_sale':[{'id':'e5','name':_0x148eb8(0x127),'price':0x1ea,'img':_0x148eb8(0x165)},{'id':'sc5','name':'Mauve\x20Breeze\x20Lightweight\x20Modal','price':0xbe,'img':_0x148eb8(0x186)},{'id':'s5','name':_0x148eb8(0x1ab),'price':0x28a,'img':_0x148eb8(0x12e)},{'id':'d3','name':_0x148eb8(0x13d),'price':0x4b0,'img':_0x148eb8(0x1c0)},{'id':'b5','name':_0x148eb8(0x189),'price':0x2a8,'img':_0x148eb8(0x150)}]};function _0x315a(){const _0x3f302b=['\x20EGP</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22add-to-bag-btn\x22\x20onclick=\x22addToBag(\x27','name','login.html','email','image/blouses\x202.jpg','getElementById','innerHTML','image/blouses\x209.jfif','image/esdal\x203.webp','target','Login\x20here','image/scarfe\x204.webp','splice','sc5','Midnight\x20Satin\x20Formal\x20Blouse','Soft\x20Taupe\x20Premium\x20Jersey\x20Scarf','Floral\x20Print\x20Tiered\x20Summer\x20Skirt','Asymmetrical\x20Waist\x20Wide-Leg\x20Jeans','pop','image/dress\x206.jpg','Chocolate\x20Brown\x20Relaxed\x20Trousers','\x20Collection','preventDefault','value','Rose\x20Silk\x20Premium\x20Satin\x20Esdal','location','image/pants\x2010.webp','blouses','click','password','removeItem','collection-title','Ruffle\x20Lace\x20Chiffon\x20Blouse','parse','href','A-Line\x20Pure\x20White\x20Dress','Classic\x20Alabaster\x20Chiffon\x20Scarf','image/dress\x203.webp','image/blouses\x2010.jpeg','\x27)\x22>Add\x20To\x20Bag\x20🛒</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','sc1','image/dress\x201.jpg','891sxxQXz','register','true','Mauve\x20Elegance\x20Cuffed\x20Sleeve\x20Esdal','price','Your\x20bag\x20is\x20empty!\x20Please\x20add\x20some\x20beautiful\x20outfits\x20to\x20your\x20bag\x20before\x20checking\x20out.\x20🌸','Already\x20have\x20an\x20account?','elements','total-price','Boho\x20Tiered\x20Crinkle\x20Maxi\x20Skirt','image/dress\x209.jpg','index.html','image/skirt\x201.webp','image/pants\x209.jfif','Classic\x20Jet\x20Black\x20Butterfly\x20Esdal','cart-items-list','b10','image/pants\x208.jpg','</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22product-price\x22>','stringify','image/pants\x206.jpg','image/skirt\x205.jpg','message','cartProducts_','369090sFImdd','addEventListener','Dusty\x20Pink\x20Pleated\x20Satin\x20Skirt','Deep\x20Indigo\x20Relaxed\x20Fit\x20Denim','Muted\x20Earth\x20Tones\x20Everyday\x20Scarf','769347dwjhty','Join\x20Tutti\x20Frutti\x20✨','Floral\x20Gingham\x20Milkmaid\x20Dress','\x20EGP</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22removeFromCart(','Error:\x20HTML\x20inputs\x20not\x20found!\x20Check\x20your\x20input\x20IDs.','104phLkSd','image/skirt\x202.webp','Sunny\x20Meadow\x20Floral\x20Dress','Vintage\x20Spring\x20Blossom\x20Scarf','Elegant\x20Victorian\x20Lace\x20Blouse','setItem','Register','\x22\x20alt=\x22','image/skirt\x2010.webp',')\x22\x20style=\x22background:none;\x20border:none;\x20color:red;\x20cursor:pointer;\x22>Remove</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','cart.html','image/scarfe\x201.jpg','image/blouses\x207.jpg','http://192.168.1.11:3000/api/','image/scarfe\x206.webp','Taupe\x20Flowy\x20Drawstring\x20Pants','isLoggedIn','454FclMPl','innerText','image/dress\x202.webp','login','image/blouses\x205.jpg','image/pants\x205.jpeg','\x22\x20onerror=\x22this.src=\x27https://via.placeholder.com/300x400?text=Image+Missing\x27\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22product-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>','application/json','Vintage\x20Plaid\x20High-Waist\x20Skirt','image/dress\x207.jpg','username-group','2251635amoOxD','search','</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','products.html?category=','image/esdal\x206.jpg','Streetwear\x20Slouchy\x20Blue\x20Jeans','Chic\x20White\x20Tiered\x20Maxi\x20Skirt','Server\x20Connection\x20Error!\x20Make\x20sure\x20your\x20server.js\x20is\x20running.\x20❌','image/dress\x208.jpg','Soft\x20Pastels\x20Textured\x20Shirt','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>','image/pants\x201.jfif','d10','.cart-icon','image/esdal\x205.webp','POST','category','push','Light\x20Wash\x20High-Waisted\x20Jeans','none','275584aIMcWF','Elegant\x20Cream\x20Flowy\x20Maxi\x20Skirt','Mint\x20Garden\x20Silk\x20Chiffon\x20Scarf','image/esdal\x201.webp','image/blouses\x201.jpg','image/skirt\x204.jpg','\x20added\x20to\x20your\x20Tutti\x20Frutti\x20Bag!\x20🍓','Dusty\x20Rose\x20Layered\x20Abaya\x20Dress','get','submit-btn','trim','toUpperCase','block','Elegant\x20Onyx\x20Modern\x20Chiffon\x20Esdal','Logged\x20out\x20successfully\x20from\x20Tutti\x20Frutti!\x20🚪','http://192.168.1.11:3000/api/checkout','Sage\x20Green\x20Silk\x20Slip\x20Skirt','total-items','length','image/scarfe\x203.jpg','486966rUgaUL','sc6','2612253FQkWQo','image/skirt\x207.webp','display','Sage\x20Floral\x20Tiered\x20Maxi\x20Dress','image/blouses\x208.jpg','image/scarfe\x205.webp','products-grid','Classic\x20Emerald\x20Silk\x20Button-Up','Satin\x20Lantern\x20Sleeve\x20Blouse','Mint\x20Lemon\x20Casual\x20Linen\x20Blouse','auth-title','image/pants\x2011.webp','Sage\x20Green\x20Oversized\x20Chiffon\x20Top','image/dress\x204.webp','sc2','image/skirt\x209.webp','Midnight\x20Leaf\x20Patterned\x20Silk\x20Esdal','image/blouses\x206.webp','image/pants\x204.webp','p10','Classic\x20Blue\x20Wide-Leg\x20Denim','image/skirt\x208.webp','image/scarfe\x202.avif','getItem','image/blouses\x203.webp','find'];_0x315a=function(){return _0x3f302b;};return _0x315a();}let isLoginMode=!![];function checkGatekeeper(){const _0x1ce09f=_0x148eb8,_0x1af898=localStorage[_0x1ce09f(0x198)](_0x1ce09f(0x14b)),_0x193513=window[_0x1ce09f(0x1b4)]['pathname']['split']('/')[_0x1ce09f(0x1ad)]();!_0x1af898&&_0x193513!==_0x1ce09f(0x19d)&&(window[_0x1ce09f(0x1b4)][_0x1ce09f(0x1bd)]='login.html');}checkGatekeeper();function goToCategory(_0x4168b0){const _0x50baee=_0x148eb8;window[_0x50baee(0x1b4)][_0x50baee(0x1bd)]=_0x50baee(0x15a)+_0x4168b0;}function _0x5267(_0x4c01af,_0x4448f0){_0x4c01af=_0x4c01af-0x119;const _0x315ad0=_0x315a();let _0x5267f2=_0x315ad0[_0x4c01af];return _0x5267f2;}function displayCollection(){const _0x7e54c4=_0x148eb8,_0x2517b4=new URLSearchParams(window['location'][_0x7e54c4(0x158)]),_0x27037d=_0x2517b4[_0x7e54c4(0x173)](_0x7e54c4(0x167))||_0x7e54c4(0x1b6),_0x5e2cc7=document[_0x7e54c4(0x1a0)](_0x7e54c4(0x1ba));_0x5e2cc7&&(_0x5e2cc7['innerText']=_0x27037d[_0x7e54c4(0x176)]()+_0x7e54c4(0x1b0));const _0x50727b=document['getElementById'](_0x7e54c4(0x187));if(!_0x50727b)return;_0x50727b[_0x7e54c4(0x1a1)]='';const _0x5fb8af=tuttiFruttiProducts[_0x27037d]||[];_0x5fb8af['forEach'](_0xfcd871=>{const _0x132792=_0x7e54c4,_0x5eed17='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22product-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22product-image-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22'+_0xfcd871['img']+_0x132792(0x142)+_0xfcd871[_0x132792(0x19c)]+_0x132792(0x152)+_0xfcd871['name']+_0x132792(0x12b)+_0xfcd871['price']+_0x132792(0x19b)+_0xfcd871['id']+_0x132792(0x1c2);_0x50727b[_0x132792(0x1a1)]+=_0x5eed17;});}function getCartStorageKey(){const _0x44bcf6=_0x148eb8,_0x56b5c3=localStorage[_0x44bcf6(0x198)]('currentUserEmail')||'guest';return _0x44bcf6(0x130)+_0x56b5c3;}function addToBag(_0x2e3279){const _0x626ee7=_0x148eb8,_0x3a8cff=getCartStorageKey();let _0x25e29f=JSON['parse'](localStorage[_0x626ee7(0x198)](_0x3a8cff))||[],_0x1e474b=null;for(let _0x916152 in tuttiFruttiProducts){let _0x506cd7=tuttiFruttiProducts[_0x916152][_0x626ee7(0x19a)](_0x59d997=>_0x59d997['id']===_0x2e3279);if(_0x506cd7){_0x1e474b=_0x506cd7;break;}}_0x1e474b&&(_0x25e29f[_0x626ee7(0x168)](_0x1e474b),localStorage[_0x626ee7(0x140)](_0x3a8cff,JSON[_0x626ee7(0x12c)](_0x25e29f)),updateCartBadge(),alert(_0x1e474b[_0x626ee7(0x19c)]+_0x626ee7(0x171)));}function updateCartBadge(){const _0x217bca=_0x148eb8,_0x22a744=document[_0x217bca(0x1a0)]('cart-count');if(!_0x22a744)return;const _0x4664c2=getCartStorageKey();let _0x23c562=JSON['parse'](localStorage['getItem'](_0x4664c2))||[];_0x22a744[_0x217bca(0x14d)]=_0x23c562['length'];}function loadCartPage(){const _0x56f50f=_0x148eb8,_0x40214a=getCartStorageKey();let _0x54417f=JSON['parse'](localStorage['getItem'](_0x40214a))||[],_0x4d6771=document[_0x56f50f(0x1a0)](_0x56f50f(0x128)),_0x1e0b3b=document[_0x56f50f(0x1a0)](_0x56f50f(0x17c)),_0xa5b2d=document['getElementById'](_0x56f50f(0x121));if(!_0x4d6771)return;if(_0x54417f[_0x56f50f(0x17d)]===0x0){_0x4d6771[_0x56f50f(0x1a1)]='<p>Your\x20bag\x20is\x20empty.\x20Start\x20shopping\x20now!\x20🍓</p>';if(_0x1e0b3b)_0x1e0b3b[_0x56f50f(0x14d)]=0x0;if(_0xa5b2d)_0xa5b2d[_0x56f50f(0x14d)]=0x0;return;}_0x4d6771['innerHTML']='';let _0x22c757=0x0;_0x54417f['forEach']((_0x319ecd,_0x1dfd60)=>{const _0x491962=_0x56f50f;_0x22c757+=_0x319ecd['price'],_0x4d6771[_0x491962(0x1a1)]+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22cart-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22'+_0x319ecd['img']+_0x491962(0x142)+_0x319ecd[_0x491962(0x19c)]+_0x491962(0x161)+_0x319ecd[_0x491962(0x19c)]+_0x491962(0x159)+_0x319ecd[_0x491962(0x11d)]+_0x491962(0x139)+_0x1dfd60+_0x491962(0x144);});if(_0x1e0b3b)_0x1e0b3b['innerText']=_0x54417f[_0x56f50f(0x17d)];if(_0xa5b2d)_0xa5b2d[_0x56f50f(0x14d)]=_0x22c757;}function removeFromCart(_0x562ee3){const _0x5c5c3c=_0x148eb8,_0x26a7d3=getCartStorageKey();let _0x1daf31=JSON[_0x5c5c3c(0x1bc)](localStorage[_0x5c5c3c(0x198)](_0x26a7d3))||[];_0x1daf31[_0x5c5c3c(0x1a7)](_0x562ee3,0x1),localStorage[_0x5c5c3c(0x140)](_0x26a7d3,JSON[_0x5c5c3c(0x12c)](_0x1daf31)),loadCartPage(),updateCartBadge();}function toggleForm(_0x1f5cd3){const _0x1ea6d4=_0x148eb8;_0x1f5cd3[_0x1ea6d4(0x1b1)](),isLoginMode=!isLoginMode;const _0x9ca420=document[_0x1ea6d4(0x1a0)](_0x1ea6d4(0x18b)),_0x2b1eeb=document[_0x1ea6d4(0x1a0)](_0x1ea6d4(0x156)),_0x3c4122=document['getElementById'](_0x1ea6d4(0x174)),_0x38f5a8=document['getElementById']('switch-text'),_0x15e1b7=document[_0x1ea6d4(0x1a0)]('switch-link');isLoginMode?(_0x9ca420[_0x1ea6d4(0x14d)]='Welcome\x20Back\x20🍓',_0x2b1eeb['style'][_0x1ea6d4(0x183)]=_0x1ea6d4(0x16a),_0x3c4122[_0x1ea6d4(0x14d)]='Login',_0x38f5a8[_0x1ea6d4(0x14d)]='New\x20to\x20Tutti\x20Frutti?',_0x15e1b7['innerText']='Create\x20an\x20Account'):(_0x9ca420[_0x1ea6d4(0x14d)]=_0x1ea6d4(0x137),_0x2b1eeb['style'][_0x1ea6d4(0x183)]=_0x1ea6d4(0x177),_0x3c4122[_0x1ea6d4(0x14d)]=_0x1ea6d4(0x141),_0x38f5a8['innerText']=_0x1ea6d4(0x11f),_0x15e1b7[_0x1ea6d4(0x14d)]=_0x1ea6d4(0x1a5));}async function handleAuth(_0x494e0b){const _0x405946=_0x148eb8;_0x494e0b[_0x405946(0x1b1)]();const _0x420ca6=document[_0x405946(0x1a0)](_0x405946(0x19e)),_0x274494=document[_0x405946(0x1a0)](_0x405946(0x1b8));if(!_0x420ca6||!_0x274494){alert(_0x405946(0x13a));return;}const _0x19634e=_0x420ca6[_0x405946(0x1b2)][_0x405946(0x175)](),_0x1fbdd5=_0x274494['value'][_0x405946(0x175)](),_0x5787c3=isLoginMode?_0x405946(0x14f):_0x405946(0x11a);try{const _0x5bb572=await fetch(_0x405946(0x148)+_0x5787c3,{'method':_0x405946(0x166),'headers':{'Content-Type':_0x405946(0x153)},'body':JSON[_0x405946(0x12c)]({'email':_0x19634e,'password':_0x1fbdd5})}),_0x35043e=await _0x5bb572['json']();_0x5bb572['ok']?isLoginMode?(localStorage[_0x405946(0x140)](_0x405946(0x14b),_0x405946(0x11b)),localStorage['setItem']('currentUserEmail',_0x19634e),alert(_0x35043e['message']),window['location'][_0x405946(0x1bd)]=_0x405946(0x124)):(alert(_0x35043e[_0x405946(0x12f)]),toggleForm(_0x494e0b)):alert(_0x35043e[_0x405946(0x12f)]);}catch(_0x1df548){alert(_0x405946(0x15e));}}async function processOrder(_0x2cef0f){const _0x19bd69=_0x148eb8;_0x2cef0f[_0x19bd69(0x1b1)]();const _0x200ad1=getCartStorageKey();let _0x4e2118=JSON['parse'](localStorage[_0x19bd69(0x198)](_0x200ad1))||[];if(_0x4e2118[_0x19bd69(0x17d)]===0x0){alert(_0x19bd69(0x11e));return;}const _0x17572a={'name':_0x2cef0f[_0x19bd69(0x1a4)][_0x19bd69(0x120)][0x0][_0x19bd69(0x1b2)],'address':_0x2cef0f[_0x19bd69(0x1a4)][_0x19bd69(0x120)][0x1][_0x19bd69(0x1b2)],'phone':_0x2cef0f[_0x19bd69(0x1a4)][_0x19bd69(0x120)][0x2][_0x19bd69(0x1b2)],'cart':_0x4e2118,'total_price':parseFloat(document[_0x19bd69(0x1a0)](_0x19bd69(0x121))['innerText'])};try{const _0x4ffa08=await fetch(_0x19bd69(0x17a),{'method':_0x19bd69(0x166),'headers':{'Content-Type':_0x19bd69(0x153)},'body':JSON[_0x19bd69(0x12c)](_0x17572a)}),_0xd52c1d=await _0x4ffa08['json']();_0x4ffa08['ok']?(alert(_0xd52c1d[_0x19bd69(0x12f)]),localStorage[_0x19bd69(0x1b9)](_0x200ad1),window[_0x19bd69(0x1b4)]['href']=_0x19bd69(0x124)):alert(_0xd52c1d['message']);}catch(_0x5b599e){alert('Failed\x20to\x20send\x20order.\x20Is\x20the\x20backend\x20server\x20running?\x20❌');}}function handleLogout(_0xb4febd){const _0x1ceacc=_0x148eb8;if(_0xb4febd)_0xb4febd[_0x1ceacc(0x1b1)]();localStorage[_0x1ceacc(0x1b9)](_0x1ceacc(0x14b)),localStorage[_0x1ceacc(0x1b9)]('currentUserEmail'),alert(_0x1ceacc(0x179)),window[_0x1ceacc(0x1b4)]['href']='login.html';}const cartIcon=document['querySelector'](_0x148eb8(0x164));cartIcon&&(cartIcon['style']['cursor']='pointer',cartIcon[_0x148eb8(0x132)](_0x148eb8(0x1b7),function(){const _0x364a2c=_0x148eb8;window[_0x364a2c(0x1b4)][_0x364a2c(0x1bd)]=_0x364a2c(0x145);}));document[_0x148eb8(0x132)]('DOMContentLoaded',()=>{updateCartBadge();});
+const tuttiFruttiProducts = {
+    blouses: [
+        { id: 'b1', name: 'Ruffle Lace Chiffon Blouse', price: 850, img: 'image/blouses 1.jpg' },
+        { id: 'b2', name: 'Elegant Victorian Lace Blouse', price: 980, img: 'image/blouses 2.jpg' },
+        { id: 'b3', name: 'Puff Sleeve Embroidered Top', price: 720, img: 'image/blouses 3.webp' },
+        { id: 'b4', name: 'Minimalist V-Neck Chiffon Blouse', price: 850, img: 'image/blouses 4.jpg' },
+        { id: 'b5', name: 'Satin Lantern Sleeve Blouse', price: 680, img: 'image/blouses 5.jpg' },
+        { id: 'b6', name: 'Soft Pastels Textured Shirt', price: 710, img: 'image/blouses 6.webp' },
+        { id: 'b7', name: 'Classic Emerald Silk Button-Up', price: 700, img: 'image/blouses 7.jpg' },
+        { id: 'b8', name: 'Sage Green Oversized Chiffon Top', price: 690, img: 'image/blouses 8.jpg' },
+        { id: 'b9', name: 'Mint Lemon Casual Linen Blouse', price: 760, img: 'image/blouses 9.jfif' },
+        { id: 'b10', name: 'Midnight Satin Formal Blouse', price: 860, img: 'image/blouses 10.jpeg' }
+    ],
+    dresses: [
+        { id: 'd1', name: 'A-Line Pure White Dress', price: 1600, img: 'image/dress 1.jpg' },
+        { id: 'd2', name: 'Floral Gingham Milkmaid Dress', price: 1650, img: 'image/dress 2.webp' },
+        { id: 'd3', name: 'Sunny Meadow Floral Dress', price: 1200, img: 'image/dress 3.webp' },
+        { id: 'd4', name: 'Blossom Ruched Maxi Dress', price: 1790, img: 'image/dress 4.webp' },
+        { id: 'd6', name: 'Whimsical Pleated Modest Gown', price: 1950, img: 'image/dress 6.jpg' },
+        { id: 'd7', name: 'Dusty Rose Layered Abaya Dress', price: 1890, img: 'image/dress 7.jpg' },
+        { id: 'd8', name: 'Sage Floral Tiered Maxi Dress', price: 1780, img: 'image/dress 8.jpg' },
+        { id: 'd9', name: 'Vintage Botanical Print Dress', price: 1820, img: 'image/dress 9.jpg' },
+        { id: 'd10', name: 'Taupe Belted Flowy Maxi Dress', price: 1750, img: 'image/dress 10.jpg' }
+    ],
+    pants: [
+        { id: 'p1', name: 'Classic Blue Wide-Leg Denim', price: 750, img: 'image/pants 1.jfif' },
+        { id: 'p2', name: 'Light Wash High-Waisted Jeans', price: 800, img: 'image/pants 11.webp' },
+        { id: 'p3', name: 'Deep Indigo Relaxed Fit Denim', price: 850, img: 'image/pants 3.webp' },
+        { id: 'p4', name: 'Asymmetrical Waist Wide-Leg Jeans', price: 890, img: 'image/pants 4.webp' },
+        { id: 'p5', name: 'Cute Embroidered Hearts Denim', price: 880, img: 'image/pants 5.jpeg' },
+        { id: 'p6', name: 'Streetwear Slouchy Blue Jeans', price: 840, img: 'image/pants 6.jpg' },
+        { id: 'p7', name: 'Dark Cocoa Straight Trousers', price: 820, img: 'image/pants 7.jpg' },
+        { id: 'p8', name: 'Chocolate Brown Relaxed Trousers', price: 820, img: 'image/pants 8.jpg' },
+        { id: 'p9', name: 'Paperbag Waist Linen Culottes', price: 780, img: 'image/pants 9.jfif' },
+        { id: 'p10', name: 'Taupe Flowy Drawstring Pants', price: 790, img: 'image/pants 10.webp' }
+    ],
+    skirts: [
+        { id: 's1', name: 'Dusty Pink Pleated Satin Skirt', price: 940, img: 'image/skirt 1.webp' },
+        { id: 's2', name: 'Elegant Cream Flowy Maxi Skirt', price: 800, img: 'image/skirt 2.webp' },
+        { id: 's3', name: 'Soft Beige Flared Knit Skirt', price: 820, img: 'image/skirt 3.jpg' },
+        { id: 's4', name: 'Classic Button-Down Olive Skirt', price: 790, img: 'image/skirt 4.jpg' },
+        { id: 's5', name: 'Floral Print Tiered Summer Skirt', price: 650, img: 'image/skirt 5.jpg' },
+        { id: 's6', name: 'Minimalist Black Cotton Skirt', price: 850, img: 'image/skirt 6.webp' },
+        { id: 's7', name: 'Sage Green Silk Slip Skirt', price: 880, img: 'image/skirt 7.webp' },
+        { id: 's8', name: 'Vintage Plaid High-Waist Skirt', price: 830, img: 'image/skirt 8.webp' },
+        { id: 's9', name: 'Boho Tiered Crinkle Maxi Skirt', price: 710, img: 'image/skirt 9.webp' },
+        { id: 's10', name: 'Chic White Tiered Maxi Skirt', price: 790, img: 'image/skirt 10.webp' }
+    ],
+    scarfs: [
+        { id: 'sc1', name: 'Vintage Spring Blossom Scarf', price: 220, img: 'image/scarfe 1.jpg' },
+        { id: 'sc2', name: 'Mint Garden Silk Chiffon Scarf', price: 220, img: 'image/scarfe 2.avif' },
+        { id: 'sc3', name: 'Classic Alabaster Chiffon Scarf', price: 250, img: 'image/scarfe 3.jpg' },
+        { id: 'sc4', name: 'Soft Taupe Premium Jersey Scarf', price: 240, img: 'image/scarfe 4.webp' },
+        { id: 'sc5', name: 'Mauve Breeze Lightweight Modal', price: 190, img: 'image/scarfe 5.webp' },
+        { id: 'sc6', name: 'Muted Earth Tones Everyday Scarf', price: 210, img: 'image/scarfe 6.webp' }
+    ],
+    esdalat: [
+        { id: 'e1', name: 'Rose Silk Premium Satin Esdal', price: 950, img: 'image/esdal 1.webp' },
+        { id: 'e2', name: 'Blush Pink Flowy Comfort Esdal', price: 820, img: 'image/esdal 2.jfif' },
+        { id: 'e3', name: 'Mauve Elegance Cuffed Sleeve Esdal', price: 980, img: 'image/esdal 3.webp' },
+        { id: 'e4', name: 'Midnight Leaf Patterned Silk Esdal', price: 900, img: 'image/esdal 4.jpg' },
+        { id: 'e5', name: 'Classic Jet Black Butterfly Esdal', price: 790, img: 'image/esdal 5.webp' },
+        { id: 'e6', name: 'Elegant Onyx Modern Chiffon Esdal', price: 820, img: 'image/esdal 6.jpg' }
+    ],
+    tech_sale: [
+        { id: 'e5', name: 'Classic Jet Black Butterfly Esdal', price: 490, img: 'image/esdal 5.webp' },
+        { id: 'sc5', name: 'Mauve Breeze Lightweight Modal', price: 190, img: 'image/scarfe 5.webp' },
+        { id: 's5', name: 'Floral Print Tiered Summer Skirt', price: 650, img: 'image/skirt 5.jpg' },
+        { id: 'd3', name: 'Sunny Meadow Floral Dress', price: 1200, img: 'image/dress 3.webp' },
+        { id: 'b5', name: 'Satin Lantern Sleeve Blouse', price: 680, img: 'image/blouses 5.jpg' }
+    ]
+};
+
+let isLoginMode = true;
+
+function checkGatekeeper() {
+    const isLoggedIn = localStorage.getItem('isLoggedIn');
+    const currentFile = window.location.pathname.split("/").pop();
+    if (!isLoggedIn && currentFile !== 'login.html') {
+        window.location.href = 'login.html';
+    }
+}
+checkGatekeeper();
+
+function goToCategory(categoryName) {
+    window.location.href = `products.html?category=${categoryName}`;
+}
+
+function displayCollection() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const activeCategory = urlParams.get('category') || 'blouses';
+    const titleElement = document.getElementById('collection-title');
+    if (titleElement) {
+        titleElement.innerText = `${activeCategory.toUpperCase()} Collection`;
+    }
+    const grid = document.getElementById('products-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+    const productsToShow = tuttiFruttiProducts[activeCategory] || [];
+    productsToShow.forEach(product => {
+        const productCard = `
+            <div class="product-card">
+                <div class="product-image-wrapper">
+                    <img src="${product.img}" alt="${product.name}" onerror="this.src='https://via.placeholder.com/300x400?text=Image+Missing'">
+                </div>
+                <div class="product-info">
+                    <h4>${product.name}</h4>
+                    <div class="product-price">${product.price} EGP</div>
+                </div>
+                <button class="add-to-bag-btn" onclick="addToBag('${product.id}')">Add To Bag 🛒</button>
+            </div>
+        `;
+        grid.innerHTML += productCard;
+    });
+}
+
+function getCartStorageKey() {
+    const currentUser = localStorage.getItem('currentUserEmail') || 'guest';
+    return `cartProducts_${currentUser}`;
+}
+
+function addToBag(productId) {
+    const cartKey = getCartStorageKey();
+    let cartProducts = JSON.parse(localStorage.getItem(cartKey)) || [];
+    let foundProduct = null;
+    for (let category in tuttiFruttiProducts) {
+        let prod = tuttiFruttiProducts[category].find(p => p.id === productId);
+        if (prod) { foundProduct = prod; break; }
+    }
+    if (foundProduct) {
+        cartProducts.push(foundProduct);
+        localStorage.setItem(cartKey, JSON.stringify(cartProducts));
+        updateCartBadge();
+        alert(`${foundProduct.name} added to your Tutti Frutti Bag! 🍓`);
+    }
+}
+
+function updateCartBadge() {
+    const element = document.getElementById('cart-count');
+    if (!element) return;
+    const cartKey = getCartStorageKey();
+    let cartProducts = JSON.parse(localStorage.getItem(cartKey)) || [];
+    element.innerText = cartProducts.length;
+}
+
+function loadCartPage() {
+    const cartKey = getCartStorageKey();
+    let savedItems = JSON.parse(localStorage.getItem(cartKey)) || [];
+    let itemsList = document.getElementById('cart-items-list');
+    let totalItemsAcc = document.getElementById('total-items');
+    let totalPriceAcc = document.getElementById('total-price');
+    if (!itemsList) return;
+    if (savedItems.length === 0) {
+        itemsList.innerHTML = `<p>Your bag is empty. Start shopping now! 🍓</p>`;
+        if(totalItemsAcc) totalItemsAcc.innerText = 0;
+        if(totalPriceAcc) totalPriceAcc.innerText = 0;
+        return;
+    }
+    itemsList.innerHTML = '';
+    let totalPrice = 0;
+    savedItems.forEach((item, index) => {
+        totalPrice += item.price;
+        itemsList.innerHTML += `
+            <div class="cart-item">
+                <img src="${item.img}" alt="${item.name}">
+                <div>
+                    <h4>${item.name}</h4>
+                    <p>${item.price} EGP</p>
+                </div>
+                <button onclick="removeFromCart(${index})" style="background:none; border:none; color:red; cursor:pointer;">Remove</button>
+            </div>
+        `;
+    });
+    if(totalItemsAcc) totalItemsAcc.innerText = savedItems.length;
+    if(totalPriceAcc) totalPriceAcc.innerText = totalPrice;
+}
+
+function removeFromCart(index) {
+    const cartKey = getCartStorageKey();
+    let savedItems = JSON.parse(localStorage.getItem(cartKey)) || [];
+    savedItems.splice(index, 1);
+    localStorage.setItem(cartKey, JSON.stringify(savedItems));
+    loadCartPage();
+    updateCartBadge();
+}
+
+function toggleForm(e) {
+    e.preventDefault();
+    isLoginMode = !isLoginMode;
+    const title = document.getElementById('auth-title');
+    const nameGroup = document.getElementById('username-group');
+    const submitBtn = document.getElementById('submit-btn');
+    const switchText = document.getElementById('switch-text');
+    const switchLink = document.getElementById('switch-link');
+    if (isLoginMode) {
+        title.innerText = "Welcome Back 🍓";
+        nameGroup.style.display = "none";
+        submitBtn.innerText = "Login";
+        switchText.innerText = "New to Tutti Frutti?";
+        switchLink.innerText = "Create an Account";
+    } else {
+        title.innerText = "Join Tutti Frutti ✨";
+        nameGroup.style.display = "block";
+        submitBtn.innerText = "Register";
+        switchText.innerText = "Already have an account?";
+        switchLink.innerText = "Login here";
+    }
+}
+
+async function handleAuth(event) {
+    event.preventDefault();
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+    if (!emailInput || !passwordInput) return;
+    const email = emailInput.value.trim();
+    const password = passwordInput.value.trim();
+    const endpoint = isLoginMode ? 'login' : 'register';
+    try {
+        const response = await fetch(`http://localhost:3000/api/${endpoint}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: email, password: password })
+        });
+        const data = await response.json();
+        if (response.ok) {
+            if (isLoginMode) {
+                localStorage.setItem('isLoggedIn', 'true');
+                localStorage.setItem('currentUserEmail', email);
+                alert(data.message);
+                window.location.href = 'index.html';
+            } else {
+                alert(data.message);
+                toggleForm(event);
+            }
+        } else {
+            alert(data.message);
+        }
+    } catch (error) {
+        alert("Server Connection Error! ❌");
+    }
+}
+
+async function processOrder(event) {
+    event.preventDefault();
+    const cartKey = getCartStorageKey();
+    let savedItems = JSON.parse(localStorage.getItem(cartKey)) || [];
+    if (savedItems.length === 0) {
+        alert("Your bag is empty! 🌸");
+        return;
+    }
+    const orderData = {
+        name: event.target.elements[0].value,
+        address: event.target.elements[1].value,
+        phone: event.target.elements[2].value,
+        cart: savedItems,
+        total_price: parseFloat(document.getElementById('total-price').innerText)
+    };
+    try {
+        const response = await fetch('http://localhost:3000/api/checkout', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(orderData)
+        });
+        const data = await response.json();
+        if (response.ok) {
+            alert(data.message);
+            localStorage.removeItem(cartKey);
+            window.location.href = 'index.html';
+        } else {
+            alert(data.message);
+        }
+    } catch (error) {
+        alert("Failed to send order. ❌");
+    }
+}
+
+const cartIcon = document.querySelector('.cart-icon');
+if(cartIcon) {
+    cartIcon.style.cursor = "pointer";
+    cartIcon.addEventListener('click', function() { window.location.href = 'cart.html'; });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    updateCartBadge();
+});

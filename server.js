@@ -12,7 +12,7 @@ let ordersDB = [];
 
 app.post('/api/register', (req, res) => {
     const { email, password } = req.body;
-    
+
     const userExists = usersDB.some(user => user.email === email);
     if (userExists) {
         return res.status(400).json({ status: 'error', message: 'This email is already registered! ❌' });
@@ -24,7 +24,7 @@ app.post('/api/register', (req, res) => {
 
 app.post('/api/login', (req, res) => {
     const { email, password } = req.body;
-    
+
     const matchedUser = usersDB.find(user => user.email === email && user.password === password);
     if (!matchedUser) {
         return res.status(400).json({ status: 'error', message: 'No account found or incorrect password! ❌' });
@@ -51,8 +51,7 @@ app.post('/api/checkout', (req, res) => {
     };
 
     ordersDB.push(newOrder);
-    console.log(" New Order Placed Successfully:", newOrder); 
-
+    
     return res.json({ status: 'success', message: 'Thank you! Your order has been stored and is being processed 🍓✨' });
 });
 

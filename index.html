@@ -11,10 +11,10 @@
     <header>
         <div class="logo" onclick="window.location.href='index.html'" style="cursor:pointer;">🍓 Tutti Frutti</div>
         <nav>
-    <a href="index.html">Home</a>
-    <a href="#" onclick="goToCategory('tech_sale')">Tech Sale ⚡</a>
-    <a href="#" onclick="localStorage.removeItem('isLoggedIn'); window.location.reload();">Logout 🚪</a>
-       </nav>
+            <a href="index.html">Home</a>
+            <a href="#" onclick="goToCategory('tech_sale')">Tech Sale ⚡</a>
+            <a href="#" onclick="localStorage.removeItem('isLoggedIn'); localStorage.removeItem('currentUserEmail'); window.location.reload();">Logout 🚪</a>
+        </nav>
         <div class="cart-icon">
             🛒 Bag (<span id="cart-count">0</span>)
         </div>
